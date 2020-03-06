@@ -153,7 +153,7 @@ export default {
       let that = this;
 
       uni.uploadFile({
-        url: "http://smartiot.zhaofan.site:8000/api/uploadInfo",
+        url: "",
         filePath: image_path,
         name: "image",
         formData: {
